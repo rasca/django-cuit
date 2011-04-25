@@ -44,7 +44,7 @@ To be written
 TODO
 ----
 
-- Automatically unzzip the downloaded database in memory
+- Automatically unzip the downloaded database in memory
 - Allow updating the database with the *no denomination* database
 - Complete the *monotributo* activities
 - Check transactions when updating
