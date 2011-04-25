@@ -11,7 +11,7 @@ related to the CUIT:
 - Imp IVA
 - Monotributo
 - Integrante Soc
-- Empreador
+- Empleador
 - Actividad Monotributo
 
 How it works
@@ -46,5 +46,6 @@ TODO
 
 - Automatically unzzip the downloaded database in memory
 - Allow updating the database with the *no denomination* database
+- Complete the *monotributo* activities
 
 .. _released database: http://www.afip.gob.ar/genericos/cInscripcion/archivoCompleto.asp
