@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-24 21:50-0300\n"
+"POT-Creation-Date: 2011-04-24 22:10-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -78,10 +78,14 @@ msgstr ""
 msgid "Actividad monotributo"
 msgstr ""
 
-#: models.py:60
+#: models.py:59
+msgid "Active"
+msgstr "Activo"
+
+#: models.py:62
 msgid "Inscription"
 msgstr "Inscripción"
 
-#: models.py:61
+#: models.py:63
 msgid "Inscriptions"
 msgstr "Inscripciones"

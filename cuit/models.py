@@ -56,6 +56,8 @@ class Inscription(models.Model):
     actividad_monotributo = models.DecimalField(_(u'Actividad monotributo'),
                                                 max_digits=2, decimal_places=0)
 
+    active = models.BooleanField(_(u'Active'), default=True)
+
     class Meta:
         verbose_name = _(u'Inscription')
         verbose_name_plural = _(u'Inscriptions')
