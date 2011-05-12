@@ -1,4 +1,5 @@
 #coding=UTF-8
+import codecs
 from django.core.management.base import BaseCommand, CommandError
 
 from cuit.utils import update_cuit
@@ -12,7 +13,7 @@ class Command(BaseCommand):
             raise CommandError('You must supply one file')
 
         try:
-            f = open(args[0])
+            f = codecs.open(args[0], 'r', 'ISO-8859-1')
         except IOError:
             raise CommandError('There was a problem opening the file')
 

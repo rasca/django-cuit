@@ -5,7 +5,7 @@ def update_cuit(file):
     Inscription.objects.update(active=False)
 
     for line in file:
-        cuit = '%s-%s-%s' % (line[:2], line[2:10], line[10])
+        cuit = u'%s-%s-%s' % (line[:2], line[2:10], line[10])
         try:
             inscription = Inscription.objects.get(cuit=cuit)
         except Inscription.DoesNotExist:
