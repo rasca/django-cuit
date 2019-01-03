@@ -51,7 +51,7 @@ class Inscription(models.Model):
                        u'Código de categoría tributaria o NI (No inscripto)')
     integrante_soc = models.CharField(_(u'Integrante de una sociedad'),
                                       max_length=1, choices=ACTIVO_CHOICES)
-    empleador = models.CharField(_(u'Empelador'), max_length=1,
+    empleador = models.CharField(_(u'Empleador'), max_length=1,
                                  choices=ACTIVO_CHOICES)
     actividad_monotributo = models.DecimalField(_(u'Actividad monotributo'),
                                                 max_digits=2, decimal_places=0)
